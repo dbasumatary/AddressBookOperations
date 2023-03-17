@@ -30,6 +30,22 @@ public class Contacts {
         this.firstName = firstName;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public long getPhone() {
+        return phone;
+    }
+
     public String getCity() {
         return city;
     }
